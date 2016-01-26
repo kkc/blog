@@ -4,8 +4,8 @@
 
 # Site
 title: Kakashi's Notes
-subtitle:
-description:
+subtitle: 喜歡深入實作不當太空人
+description: talk about technology, DevOps, programming (python, nodejs), and database (mysql, mongodb, postgres)
 author: Kakashi
 language: zh-tw
 timezone:
@@ -64,7 +64,8 @@ pagination_dir: page
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: next
-scheme: Mist
+#scheme: Mist
+scheme: pisces
 
 menu:
     home: /
@@ -88,8 +89,10 @@ disqus_shortname: kkcliu
 deploy:
   type: git
   repo: https://github.com/kkc/kkc.github.io
+#  branch: gh-pages
 
 google_analytics: UA-64932988-1
+google_site_verification: "jJnpQjFutFaHT1yZV38mcuySEQjIm1b_DWfx3GfBoII"
 
 feed:
   type: atom
@@ -107,3 +110,14 @@ marked:
     breaks: true
     smartLists: true
     smartypants: true
+
+sitemap:
+  path: sitemap.xml
+
+#Code Highlight theme
+# Available value: normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night
+
+use_motion: true
+fancybox: true
