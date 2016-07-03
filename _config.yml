@@ -4,7 +4,7 @@
 
 # Site
 title: Kakashi's Notes
-subtitle: 喜歡深入實作不當太空人
+subtitle: 啊啊啊啊啊 (想發 10x 界王拳)
 description: talk about technology, DevOps, programming (python, nodejs), and database (mysql, mongodb, postgres)
 author: Kakashi
 language: zh-tw
@@ -89,7 +89,7 @@ disqus_shortname: kkcliu
 deploy:
   type: git
   repo: https://github.com/kkc/kkc.github.io
-#  branch: gh-pages
+  branch: gh-pages
 
 google_analytics: UA-64932988-1
 google_site_verification: "jJnpQjFutFaHT1yZV38mcuySEQjIm1b_DWfx3GfBoII"
