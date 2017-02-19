@@ -6,7 +6,7 @@
     "version": "3.2.2"
   },
   "dependencies": {
-    "hexo": "^3.1.1",
+    "hexo": "^3.2.2",
     "hexo-deployer-git": "0.0.4",
     "hexo-filter-auto-spacing": "^0.2.1",
     "hexo-generator-archive": "^0.1.4",
@@ -18,6 +18,6 @@
     "hexo-renderer-ejs": "^0.1.0",
     "hexo-renderer-marked": "^0.2.8",
     "hexo-renderer-stylus": "^0.3.0",
-    "hexo-server": "^0.1.2"
+    "hexo-server": "^0.1.3"
   }
 }
