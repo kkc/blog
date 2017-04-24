@@ -64,8 +64,9 @@ pagination_dir: page
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: next
-#scheme: Mist
-scheme: pisces
+#scheme: Muse
+scheme: Mist
+#scheme: pisces
 
 menu:
     home: /
@@ -75,7 +76,8 @@ menu:
     tags: /tags
     #commonweal: /404.html
 
-sidebar: hide
+    #sidebar:
+    #    position: left
 
 # Social links
 social:
@@ -88,8 +90,10 @@ disqus_shortname: kkcliu
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/kkc/kkc.github.io
-  branch: gh-pages
+  repo: git@github.com:kkc/kkc.github.io.git
+  #repo: https://github.com/kkc/kkc.github.io
+  #branch: gh-pages
+  #message: aloha
 
 google_analytics: UA-64932988-1
 google_site_verification: "jJnpQjFutFaHT1yZV38mcuySEQjIm1b_DWfx3GfBoII"
@@ -98,9 +102,6 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
-
-plugins:
-    - hexo-generator-sitemap
 
 marked:
     gfm: true
@@ -121,3 +122,36 @@ highlight_theme: night
 
 use_motion: true
 fancybox: true
+
+font:
+  enable: true
+
+  # 外链字体库地址，例如 //fonts.googleapis.com (默认值)
+  host:
+
+  # 全局字体，应用在 <body> 元素上
+  global:
+    external: true
+    family: Monda
+
+  # 标题字体 (h1, h2, h3, h4, h5, h6)
+  headings:
+    external: true
+    family: Roboto Slab
+
+  # 文章字体
+  posts:
+    external: true
+    family:
+    size: 30
+
+  # Logo 字体
+  logo:
+    external: true
+    family: Lobster Two
+    size: 24
+
+  # 代码字体，应用于 <code> 以及代码块
+  codes:
+    external: true
+    family: PT Mono
