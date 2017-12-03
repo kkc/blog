@@ -3,7 +3,9 @@ date: 2017-11-17 03:39:05
 tags: aws
 ---
 
-# Usage 
+It's a simple note that how to get notification while AWS IP range change
+
+# Usage
 http://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html
 
 AWS provides the ip range file, you can download from [ip-ranges.json](https://ip-ranges.amazonaws.com/ip-ranges.json)
@@ -43,3 +45,6 @@ can use it to get specific IP range
 
 strongly recommened to set this up, really helpful
 http://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html#subscribe-notifications
+
+Keep Route53 Health check source IP's up to date
+http://johntdyer.com/aws/2015/03/16/keep-route53-healthcheck-source-ips-up-to-date.html
