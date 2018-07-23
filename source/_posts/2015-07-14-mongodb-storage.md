@@ -22,7 +22,7 @@ Mongodb 的 Storage 架構其實很簡單，這篇文章其實是看完 mongolab
 
 每個 data file 又有很多的 extent，index 和 data extents 會分開存放，然後存不下的時候，才會被放到新的data file。
 
-### 觀察Database大小 ###
+### 觀察 Database 大小 ###
 
 使用mongodb的人一定要學會用 db.stats() 去觀察資料大小，而 db.stats() 又包含了三個觀測指標 dataSize、storageSize 和 fileSize。
 

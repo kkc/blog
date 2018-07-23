@@ -4,8 +4,8 @@
 
 # Site
 title: Kakashi's Notes
-subtitle: 啊啊啊啊啊 (想發 10x 界王拳)
-description: my notes about technology, DevOps, programming, and database
+subtitle: 修其本而末自應
+description: Notes about technology, DevOps, programming, and database
 author: Kakashi
 language: zh-tw
 timezone:
@@ -39,7 +39,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: true
   tab_replace:
 
@@ -64,8 +64,8 @@ pagination_dir: page
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: next
-#scheme: Muse
-scheme: Mist
+scheme: Muse
+#scheme: Mist
 #scheme: pisces
 
 menu:
@@ -76,8 +76,7 @@ menu:
     tags: /tags
     #commonweal: /404.html
 
-    #sidebar:
-    #    position: left
+sidebar: hide
 
 # Social links
 social:
@@ -114,6 +113,19 @@ marked:
 
 sitemap:
   path: sitemap.xml
+
+note:
+  style: modern
+  icons: true
+  border_radius: 3
+  light_bg_offset: 0
+
+tabs:
+  enable: true
+  transition:
+    tabs: false
+    labels: true
+  border_radius: 0
 
 #Code Highlight theme
 # Available value: normal | night | night eighties | night blue | night bright
