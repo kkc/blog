@@ -1,9 +1,9 @@
-title: retrieving AWS IP range
+title: Retrieving AWS IP range
 date: 2017-11-17 03:39:05
-tags: aws
+tags: AWS
 ---
 
-It's a simple note that how to get notification while AWS IP range change
+It's a simple note that how to get notifications while AWS IP range changed
 
 # Usage
 http://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html
