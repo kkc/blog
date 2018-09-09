@@ -245,8 +245,6 @@ layout: layout
                                     </a>
                                 </li>
                             <% } %>
-                            
-                            
                             <% if (config.linkedin_username) { %>
                                 <li>
                                     <a target="_blank"  href="https://www.linkedin.com/in/<%= config.linkedin_username %>">
@@ -260,18 +258,17 @@ layout: layout
                         </ul>
                     </div>
                 </section>
-                
-                <!-- Friends Blog -->
-                <% if(config.friends) { %>
-                <hr>
-                <h5>FRIENDS</h5>
-                <ul class="list-inline">
 
-                    <% config.friends.forEach(function(friend){ %>
-                        <li><a href="<%= friend.href %>" target="_blank"><%= friend.title %></a></li>
-                    <% }); %>
-                </ul>
-                <% }%>
+                <!-- Friends Blog -->
+                <hr>
+                <h5>Recent Posts</h5>
+				<div class="one-tag-list">
+                <% site.posts.sort('date', -1).limit(10).each(function(post) { %>
+					<ul>
+					    <li><a href="<%=config.root + post.path %>" style="color: #0085a1"><span><%= post.title %></span></a></li>
+					</ul>
+				<% }); %>
+				</div>
             </div>
         <%} %>
     </div>
