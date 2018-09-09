@@ -1,6 +1,7 @@
 title: TCP Network Performance Tuning 筆記
 date: 2017-12-18 09:26:17
-tags: AWS network
+tags:
+  - AWS
 ---
 
 這篇速記主要紀錄看了 AWS reinvent 這個影片的心得，裡面講解怎麼 tuning TCP 相關的 networking issue，影片來源在此
