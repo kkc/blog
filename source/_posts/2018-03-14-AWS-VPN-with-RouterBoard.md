@@ -1,6 +1,6 @@
 title: AWS VPN with RouterBoard
 date: 2018-03-14 16:37:16
-tags: aws
+tags: AWS
 ---
 
 # Introduction #
