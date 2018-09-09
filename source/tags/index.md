@@ -1,4 +1,6 @@
-title: All tags
-date: 2014-12-22 12:39:04
-type: "tags"
-
+---
+layout: "tags"
+title: "Tags"
+description: "Hey, this is Tags."
+header-img: "img/tag-bg.jpg"
+---
